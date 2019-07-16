@@ -1,0 +1,51 @@
+.content-left {
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .ant-card-body {
+    padding: 15px 20px;
+    //display: flex;
+  }
+  .ant-card-head-title{
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 0;
+    color: #44a203;
+  }
+  .ant-card-body{
+    a{
+      color: black;
+      &:hover{
+        color: #44a203;
+        text-decoration: underline;
+      }
+    }
+  }
+  .ant-card-extra{
+    a{
+      color: black;
+      font-size: 12px;
+      &:hover{
+        color: #44a203;
+      }
+    }
+  }
+  .sec-img{
+    .ant-card-head{
+      display: flex;
+      align-items: center;
+    }
+    .wrap-imglist{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  ul{
+    li{
+      margin: 10px 0;
+    }
+  }
+}

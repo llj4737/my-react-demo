@@ -1,0 +1,14 @@
+.imglist{
+  width: 130px;
+  height: 170px;
+  img{
+    width: 125px;
+    height: 150px;
+  }
+  p{
+    margin-top: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}

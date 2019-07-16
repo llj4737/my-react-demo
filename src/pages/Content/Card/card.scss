@@ -1,0 +1,43 @@
+li{
+  .ant-card-head{
+    display: flex;
+  }
+  .card-con{
+    display: flex;
+    justify-content: space-between;
+    .cardimg{
+      //display: block;
+      width: 20%;
+      height: 120px;
+    }
+    >div{
+      margin-left: 10px;
+      .text{
+        >p{
+          margin: 0;
+        }
+        line-height: 22px;
+        height: 90px;
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        -webkit-line-clamp: 4;
+        //-webkit-box-orient: vertical;
+      }
+      .read-msg{
+        margin-top: -4px;
+        display: flex;
+        justify-content: space-between;
+        a{
+          font-size: 12px;
+          &:hover{
+            color: #44a203;
+          }
+        }
+      }
+    }
+  }
+}

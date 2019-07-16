@@ -1,0 +1,36 @@
+.admin-article{
+  width: 100%;
+  //height: 100%;
+  //box-sizing: border-box;
+  background: white;
+  .ant-card-bordered{
+    border-bottom: 1px solid #eee;
+  }
+
+  .rdw-editor-main{
+    background: white;
+    padding: 10px;
+
+  }
+  .publish-article{
+    width: 1180px;
+    margin: auto;
+      word-wrap: break-word;
+    .DraftEditor-root{
+    }
+  }
+  .save-submit{
+    .ant-btn-primary{
+      float: right;
+      background: #06c6b7;
+    }
+    .ant-btn-primary:nth-child(1){
+      margin: 20px 100px 0 0;
+    }
+    .ant-btn-primary:nth-child(2){
+      margin: 20px 20px 0 0;
+    }
+  }
+
+
+}

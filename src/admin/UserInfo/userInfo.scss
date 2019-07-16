@@ -1,0 +1,23 @@
+.userInfo{
+  .ant-list-bordered .ant-list-item{
+    display: flex;
+    font-weight: bold;
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+
+    .ant-btn.ant-btn-danger{
+      float: right;
+      background: #44a203;
+      color: white;
+      &:hover{
+        background: #f5222d;
+      }
+    }
+
+  }
+
+}
+.ant-modal-mask{
+  background-color: rgba(0, 0, 0, 0.3);
+}

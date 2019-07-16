@@ -1,0 +1,36 @@
+
+.ant-spin-container{
+  .ant-list-item-meta{
+    .ant-list-item-meta-description{
+      height: 50px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+    margin-bottom: 10px;
+  }
+  .ant-btn.ant-btn-primary{
+    margin-top: -20px;
+    background-color: #06c6b7;
+    border-color: #06c6b7;
+    &:hover{
+      background-color: #f5222d;
+      border-color: #f5222d;
+    }
+  }
+}
+
+.analysisHtml{
+  width: 1000px;
+  height: 20px;
+  overflow: hidden;
+  padding-left: 50px;
+  >p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  img{
+    width: 20px!important;
+    height: 20px;
+  }
+}

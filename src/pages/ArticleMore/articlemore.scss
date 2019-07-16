@@ -1,0 +1,28 @@
+.article-more{
+  width: 100%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  .ant-list-item{
+    background: white;
+    padding: 0;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0 0 8px;
+    box-sizing: border-box;
+    h4{
+      font-weight: bold;
+    }
+    .ant-list-item-meta-description{
+      >div{
+        overflow: hidden;
+        height: 42px;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        /*! autoprefixer: off */
+        -webkit-box-orient: vertical;
+        /* autoprefixer: on */
+        -webkit-line-clamp: 2;
+        //-webkit-box-orient: vertical;
+      }
+    }
+  }
+}

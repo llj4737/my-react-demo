@@ -1,0 +1,28 @@
+.userlogin{
+  width: 100%;
+  height: 100%;
+  //background: white;
+  overflow: hidden;
+  background-image: url("01.jpg");
+  background-position: center center;
+  .ant-card{
+    margin: 180px auto;
+    .ant-card-body{
+      padding: 10px;
+    }
+    .ant-card-head-title{
+      font-size: 22px;
+      padding-bottom: 10px;
+      color: #44a203;
+      font-weight: bold;
+    }
+    .login-form-button{
+      background: #44a203;
+    }
+    a{
+      color: #44a203;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+  }
+}

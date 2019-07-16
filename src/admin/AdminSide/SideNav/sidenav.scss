@@ -1,0 +1,13 @@
+.sidenav{
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #ccc;
+  &:hover{
+    background: #06c6b7;
+    color: white;
+  }
+  //color: #44a203;
+  span:nth-child(1){
+    margin: 0 10px 0 60px;
+  }
+}
